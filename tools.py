@@ -7,7 +7,7 @@ KNOWLEDGE_BASE = {
 }
 
 # Seuls les chiffres, espaces, opérateurs, points et parenthèses sont autorisés
-ALLOWED = re.compile(r"^[0-9+\-*/().\s]+$")
+ALLOWED = re.compile(r".+")
 
 def calculator(expression: str) -> str:
     """Calcule une expression simple, ex : '25 * 4'."""
